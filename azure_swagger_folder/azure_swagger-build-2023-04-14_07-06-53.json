@@ -1,0 +1,67 @@
+{
+  "id" : "6438fb78b0c9bc195e4a3522",
+  "cts" : 1681455992564,
+  "createdUserName" : "sridhar sri",
+  "mts" : 1681455992564,
+  "apiId" : "6438fb79b0c9bc195e4a3524",
+  "revisionId" : "6438fb79b0c9bc195e4a3523",
+  "name" : "azure_swagger",
+  "displayName" : "azure_swagger",
+  "description" : "",
+  "apiRevision" : 1,
+  "apiVersion" : 1,
+  "protocols" : [ "https", "http" ],
+  "serviceUrl" : "https://stage-mock.apiwiz.io",
+  "path" : "/azure",
+  "subscriptionKeyParameterNames" : {
+    "header" : "Ocp-Apim-Subscription-Key",
+    "query" : "subscription-key"
+  },
+  "subscriptionRequired" : false,
+  "contact" : {
+    "email" : "apiteam@swagger.io"
+  },
+  "license" : {
+    "name" : "Apache 2.0",
+    "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  "termsOfServiceUrl" : "http://swagger.io/terms/",
+  "tags" : [ ],
+  "products" : [ ],
+  "isCurrent" : true,
+  "isOnline" : true,
+  "apiOperations" : [ {
+    "name" : "azure",
+    "displayName" : "azure",
+    "method" : "get",
+    "urlTemplate" : "/p1",
+    "description" : "",
+    "policies" : [ ],
+    "tags" : [ ]
+  } ],
+  "policies" : [ ],
+  "buildProgress" : "SCHEDULED",
+  "connector" : {
+    "id" : "64355fa9d8a5933dd0567425",
+    "cts" : 1681219495811,
+    "createdUserName" : "sridhar sri",
+    "mts" : 1681303428921,
+    "connectorName" : "qa",
+    "host" : "apiwiz-qa.management.azure-api.net",
+    "subscriptionId" : "39ad6429-6b72-4379-8a08-7188f5036608",
+    "resourceGroup" : "apiwiz",
+    "serviceName" : "apiwiz-qa"
+  },
+  "enableScmUpload" : true,
+  "scmUpload" : {
+    "repoName" : "azurerepo",
+    "branch" : "master",
+    "hostUrl" : "https://github.com/vidya-bs/azurerepo.git",
+    "folderName" : "azure_swagger_folder",
+    "commitMessage" : "init",
+    "scmSource" : "git",
+    "username" : "vidya-bs",
+    "password" : "",
+    "authType" : "token"
+  }
+}
